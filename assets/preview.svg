@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Matrix Operator theme palette</title>
+  <desc id="desc">An abstract dark green Home Assistant theme preview with high-contrast cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#030806"/><stop offset="1" stop-color="#07140D"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <g opacity=".26" stroke="#244534" stroke-width="1"><path d="M0 100H1200M0 210H1200M0 320H1200M0 430H1200M0 540H1200"/><path d="M110 0V630M330 0V630M550 0V630M770 0V630M990 0V630"/></g>
+  <text x="84" y="104" fill="#B8FFD4" font-family="system-ui, sans-serif" font-size="24" letter-spacing="8">MATRIX OPERATOR</text>
+  <text x="84" y="148" fill="#B4D1BD" font-family="system-ui, sans-serif" font-size="20">Home Assistant theme · dark and light modes</text>
+  <g transform="translate(84 205)">
+    <rect width="484" height="260" rx="18" fill="#0A1911" stroke="#244534" stroke-width="2"/>
+    <text x="30" y="48" fill="#ECFFF2" font-family="system-ui, sans-serif" font-size="24" font-weight="700">System status</text>
+    <rect x="30" y="82" width="424" height="54" rx="12" fill="#0F2418"/><circle cx="58" cy="109" r="10" fill="#4DFF99" filter="url(#glow)"/><text x="84" y="116" fill="#ECFFF2" font-family="system-ui, sans-serif" font-size="20">Online · protected · readable</text>
+    <rect x="30" y="158" width="174" height="54" rx="27" fill="#167A46"/><text x="65" y="192" fill="#ECFFF2" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Control</text>
+    <rect x="222" y="158" width="120" height="54" rx="27" fill="#79FFC0"/><text x="250" y="192" fill="#062510" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Ready</text>
+  </g>
+  <g transform="translate(616 205)">
+    <rect width="500" height="260" rx="18" fill="#FFFFFF"/>
+    <text x="30" y="48" fill="#10261A" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Light mode</text>
+    <rect x="30" y="82" width="440" height="54" rx="12" fill="#ECF8EF"/><circle cx="58" cy="109" r="10" fill="#006D3B"/><text x="84" y="116" fill="#10261A" font-family="system-ui, sans-serif" font-size="20">Calm, clear, and consistent</text>
+    <rect x="30" y="158" width="174" height="54" rx="27" fill="#006D3B"/><text x="65" y="192" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Control</text>
+    <rect x="222" y="158" width="120" height="54" rx="27" fill="#D7F4E0"/><text x="250" y="192" fill="#10261A" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Ready</text>
+  </g>
+  <text x="84" y="554" fill="#4DFF99" font-family="system-ui, sans-serif" font-size="19">STATIC · NO TRACKING · NO EXTERNAL DEPENDENCIES</text>
+</svg>
