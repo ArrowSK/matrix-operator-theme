@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a theme rendering or accessibility issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Matrix Operator. Do not include any personal, location, device, entity, access, or credential information.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the affected Home Assistant frontend area and the expected appearance.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Theme mode
+      options:
+        - Dark
+        - Light
+        - System default
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Safe reproduction context
+      description: Use generic terms only. Do not include screenshots or installation details unless fully anonymised.
+    validations:
+      required: true
